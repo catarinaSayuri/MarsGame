@@ -1,5 +1,6 @@
-import SceneInicial from "./scenes/SceneInicial.js";
-import SceneJogo from "./scenes/SceneJogo.js";
+import SceneInicial from "./SceneInicial.js";
+import SceneJogo from "./SceneJogo.js";
+import SceneQuarto from "./SceneQuarto.js"
 
 const config = {
   type: Phaser.AUTO,
@@ -13,7 +14,7 @@ const config = {
       debug: false,
     },
   },
-  scene: [SceneInicial, SceneJogo], // Registre as cenas
+  scene: [SceneInicial, SceneJogo, SceneQuarto], // Registre as cenas
 };
 
 const game = new Phaser.Game(config);
